@@ -1,79 +1,109 @@
-# YouTube Video Downloader
+# 🎥 YouTube Video Downloader
 
-## Overview
+A powerful **GUI-based YouTube Video Downloader** built using **Python**, **Kivy**, and **KivyMD**. This application enables users to download videos in various resolutions including **360p**, **480p**, **720p**, **1080p**, **1440p**, **4K**, and **Audio Only**, with real-time progress tracking and integrated error handling.
 
-This is a GUI-based **YouTube Video Downloader** built using Python, Kivy, and KivyMD. The app allows users to download YouTube videos in different resolutions, including **360p, 480p, 720p, 1080p, 1440p, 4K, and Audio Only**. It features a progress bar for real-time tracking and integrates **yt-dlp** for efficient downloading.
+---
 
-## Features
+## 🚀 Features
 
-✅ **User-friendly GUI** for downloading YouTube videos  
-✅ **Quality selection** (360p, 480p, 720p, 1080p, 1440p, 4K, Audio Only)  
-✅ **Real-time progress tracking** with a progress bar  
-✅ **FFmpeg integration** for audio extraction  
-✅ **Error handling** for invalid URLs or download failures  
+- ✅ **User-friendly interface** with clean material design  
+- ✅ **Quality selection**: 360p, 480p, 720p, 1080p, 1440p, 4K, or Audio Only  
+- ✅ **Progress bar** for real-time download status  
+- ✅ **FFmpeg integration** for audio-only downloads  
+- ✅ **Error handling** for invalid URLs and download issues  
 
-## Technologies Used
+---
 
-- **Python** (Core Programming Language)  
-- **Kivy & KivyMD** (GUI Development)  
-- **yt-dlp** (YouTube Downloading)  
-- **FFmpeg** (Audio Extraction)  
-- **MDDropdownMenu, MDDialog, MDProgressBar** (KivyMD Components)  
+## 🛠️ Technologies Used
 
-## Installation
+- **Python** – Core programming  
+- **Kivy** – Cross-platform GUI development  
+- **KivyMD** – Material Design components for Kivy  
+- **yt-dlp** – Efficient video downloading  
+- **FFmpeg** – Audio extraction from video  
+- KivyMD widgets like `MDDropdownMenu`, `MDDialog`, `MDProgressBar`  
 
-### Prerequisites
+---
 
-Make sure you have **Python 3.x** installed on your system.
+## 📦 Installation
 
-### Steps
+### ✅ Prerequisites
 
-1️⃣ **Clone the repository:**
-```sh
-git clone https://github.com/Dhananjay66/YouTube-Downloader
-cd YouTube-Downloader
+Ensure Python **3.x** is installed on your machine.
 
-2️⃣ Install dependencies:
+### 📥 Setup Instructions
 
-sh
-Copy
-Edit
-pip install kivy kivymd yt-dlp ffmpeg-python
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Dhananjay66/YouTube-Downloader
+   cd YouTube-Downloader
+    ```
 
-3️⃣ Download FFmpeg (if not installed):
+2. **Install dependencies**:
 
-Windows: Download from FFmpeg Official Site
+   ```bash
+   pip install kivy kivymd yt-dlp ffmpeg-python
+   ```
 
-Linux/Mac: Install via package manager
+3. **Install FFmpeg** (if not already installed):
 
-sh
-Copy
-Edit
-sudo apt install ffmpeg  # Ubuntu/Debian  
-brew install ffmpeg  # macOS
-4️⃣ Run the application:
+   * **Windows**: [Download from official FFmpeg site](https://ffmpeg.org/download.html) and add to PATH
+   * **Linux (Debian/Ubuntu)**:
 
-sh
-Copy
-Edit
-python main.py
-Usage
-Enter a YouTube URL in the text field.
+     ```bash
+     sudo apt install ffmpeg
+     ```
+   * **macOS**:
 
-Select a quality option from the dropdown menu.
+     ```bash
+     brew install ffmpeg
+     ```
 
-Click "Download" to start the process.
+4. **Run the application**:
 
-Monitor the progress through the progress bar and status messages.
+   ```bash
+   python main.py
+   ```
 
-Find the downloaded file in the Downloads/Downloads folder.
+---
 
-Troubleshooting
-🔹 Download fails? Ensure you have a valid YouTube URL.
-🔹 FFmpeg missing? Ensure it is installed and added to the system path.
-🔹 yt-dlp outdated? Update it using:
+## 📋 Usage
 
-sh
-Copy
-Edit
-pip install --upgrade yt-dlp
+1. Enter the **YouTube video URL** in the input field
+2. Select the **desired quality** from the dropdown
+3. Click **Download** to start
+4. Monitor the **progress bar and status messages**
+5. Downloaded files are saved in the `Downloads/` directory inside the project
+
+---
+
+## 🧩 Troubleshooting
+
+* ❌ **Download fails?**  
+  🔹 Ensure a valid YouTube URL is provided  
+  🔹 Check your internet connection
+
+* ⚠️ **FFmpeg error?**  
+  🔹 Make sure FFmpeg is installed and added to system `PATH`
+
+* 🔄 **yt-dlp outdated?**  
+  🔹 Update it using:
+    ```bash
+    pip install --upgrade yt-dlp
+    ```
+
+
+---
+
+## 📎 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙋‍♂️ Author
+
+**Dhananjay Pratap Singh**
+📧 [Contact](mailto:pratapsinghd665@gmail.com) | 🌐 [GitHub Profile](https://github.com/Dhananjay66)
+
+---
